@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color: #FFF3E4;
+    position: relative;
+    background-image: url(IMG_0595.JPG);
+    background-size: cover;
+}
+header{
+    background-color: rgba(128, 128, 128, 0.342);
+    width: 100%;
+    position: fixed;
+    top: 0;  
+}
+h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Sacramento", cursive;
+    padding-left: 10px;
+}
+.signup a
+{
+    color: rgba(129, 67, 173, 0.733);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    text-decoration: none;
+}
+.signup a:hover{
+    color: #000;
+    transition: 0.8s;
+}
+form{
+    position: relative;
+    left: 36%;
+    background-color: #4abad657;
+    width: 25%;
+    padding: 60px 25px;
+    margin-top: 100px;
+    margin-bottom: 5%;
+    border-radius: 3%;
+}
+button{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    bottom: 5%;
+    left: 2%;
+    width: 80%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: 20% 10% auto 10%;
+    background: #1f43e4;
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+
+}
+button:hover{
+   background-color: transparent;
+   transition: 0.8s;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background-color: lavender  ;
+    text-align: center;
+    height: 5%;
+}
+small{
+    color: rgb(5, 5, 5);
+    position: relative;
+    top:25%;
+}
+input, select{
+    width: 100%;
+    padding: 20px 0 0 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(71, 119, 223);
+    outline: none;
+    background: transparent;
+}
+.checkbox{
+    width: 10%;
+}
+span {
+    color: #777;
+    font-size: 15px;
+    bottom: 29%;
+    position: absolute;
+}
+.fpassword a{
+    position: absolute;
+    bottom: 18%;
+    left:15%;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}
+img{
+    border-radius: 50%;
+}
+a{
+    color: #fc046bbd;
+}
+body p{
+    margin-top: 3cm;
+    margin-left: 18cm;
+}

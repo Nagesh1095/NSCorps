@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head> 
+       <title> N S Corporation </title>
+    <link rel="stylesheet" href="loginstyle.css">
+    
+ </head>
+<body>
+    <header>
+       <table>
+           <tr>
+               <td>
+                <a href="index.html"><img src="IMG_0555.jpg" alt="IMG_0555.jpg" ></a>
+                </td>
+            <td>
+                <h1><a href="index.html">N S Corps©</a></h1>
+                
+            </td>
+            </tr>
+    </table>
+       <div class="signup"><a href="register.html">Signup</a></div>
+    </header>   
+   <div class="middle-container">
+       <p id="resp"></p>
+    <form >
+        <label for="userid">Username :</label><br>
+        <input type="text" name="userid" placeholder="Username/Email/Mobile No" id="Username" required><br><br>
+        <label for="password">Password :</label><br>
+        <input type="password" name="password" placeholder="Enter your Password" required id="Password"><br><br>
+        <div class="checkbox"><input type="checkbox" class="check-box"><span>Remember Password</span></div><br><br>
+        <div class="fpassword"><a href="#">Forgot Password</a></div>
+        <button type="button" onclick="validationLogin()" value="Login" name="Login" action="welcome.html">Login</button>
+    </form>
+    </div>
+    <footer>
+        <small>© Copyright. All right 2021 </small>
+    </footer>
+</body>
+<script type="text/javascript" src="login.js"></script>
+</html>

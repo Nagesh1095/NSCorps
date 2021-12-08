@@ -1,0 +1,34 @@
+
+label{
+    color: white;
+}
+button{
+    margin-left: 35cm;
+    width: 2cm;
+    height: 1cm;
+    border-radius: 3mm;
+    border-color: rgba(0, 0, 0, 0.508);
+    font-size: 5mm;
+    font-family: cursive;;
+    background-color: rgba(64, 224, 208, 0.549);
+
+}
+input{
+    background-color: transparent;
+    border-top: #000;
+    border-left: black;
+    border-right: black;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}
+body{
+    border: solid;
+    border-width: 2mm;
+    border-radius: 5mm;
+    background-color: rgba(180, 240, 150, 0.631);
+}
+.i{
+    background-color: rgb(255, 255, 255);
+}
